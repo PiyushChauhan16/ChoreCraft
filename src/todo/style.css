@@ -1,0 +1,87 @@
+body{
+    background: rgb(3, 3, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_div{
+    height: 30px;
+    
+    position: relative;
+    /* border-style: solid; */
+    /* border-color: red; */
+}
+
+.textbox{
+    border-radius: 5px;
+    padding: 8px;
+    padding-right: 15px;
+    margin-right: 0px;
+    
+}
+
+.add_button{
+    padding: 4px;
+    margin-left: 0px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    left:160px;
+    top: 1.2px;;
+    bottom: 4px;;
+    height: 29px;
+    color: grey;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.add_button:hover{
+    opacity: 0.7;;
+}
+.item_list{
+    /* border-style: solid;
+    border-color: red; */
+    margin-top: 30px;;
+}
+.item{
+    color: aliceblue;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;;
+    border-radius: 5px;;
+    background-color: rgb(77, 25, 209);
+    font-size: 13.5px;;
+    font-weight: 540;
+    transition: all 0.2s;
+    position: relative;
+}
+.item:hover{
+    background-color: white;
+    color: rgb(77, 25, 209);
+}
+
+.edit{
+    position: absolute;
+    right: 40px;;
+    bottom: 4px;
+}
+
+.del{
+    position: absolute;
+    right: 5px;
+    bottom: 4px;;
+}
+
+.edit-btn{
+    font-size: 15px;;
+    position: absolute;
+    right: 0px;;
+    top: 10px;
+    padding-right: 0px;
+   
+}
